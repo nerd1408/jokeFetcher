@@ -12,7 +12,7 @@ xhr.onload = function () {
         console.log(response);
       let output = ''
       
-      if (response.type='success')
+      if (response.type==='success')
       {
 
        response.value.forEach(joke => {
